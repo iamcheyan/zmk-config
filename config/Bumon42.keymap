@@ -79,10 +79,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans           &trans       &trans    &trans      &trans       &trans     &trans         &trans        &trans                &trans                 &trans
+&trans           &trans       &trans    &trans      &trans       &trans     &trans         &trans        &trans                &trans                 &trans
+&trans           &trans       &trans    &trans   &kp MINUS       &trans     &trans         &trans
             >;
         };
 

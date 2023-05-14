@@ -81,7 +81,7 @@
             bindings = <
  &to 0  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans           &trans       &trans    &trans      &trans       &trans     &trans         &trans        &trans                &trans                 &trans
-&trans           &trans       &trans    &trans      &trans       &trans     &trans         &trans        &trans  &kp NON_US_BACKSLASH                 &trans
+ &to 0           &trans       &trans    &trans      &trans       &trans     &trans         &trans        &trans  &kp NON_US_BACKSLASH                 &trans
 &trans           &trans       &trans    &trans   &kp MINUS       &trans     &trans         &trans
             >;
         };

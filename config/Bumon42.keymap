@@ -35,10 +35,10 @@
 
         number {
             bindings = <
-&kp GRAVE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0  &kp DEL
- &kp CAPS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp F     &kp EQUAL      &kp PLUS     &kp MINUS  &kp ASTERISK     &kp SLASH         &kp ENTER
-    &mo 5    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0         &kp B         &kp N     &kp COMMA    &kp PERIOD     &kp SLASH  &mt RSHIFT SLASH
-&kp LCTRL  &lt 5 NUMBER_0       &kp DOT     &kp SPACE     &kp EQUAL   &lt 3 SPACE    &lt 5 RGUI     &kp RCTRL
+&kp GRAVE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0  &kp DEL
+ &kp CAPS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &kp F     &kp EQUAL         &kp PLUS     &kp MINUS  &kp ASTERISK     &kp SLASH         &kp ENTER
+    &mo 5    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0         &kp B            &kp N     &kp COMMA    &kp PERIOD     &kp SLASH  &mt RSHIFT SLASH
+&kp LCTRL  &lt 5 NUMBER_0       &kp DOT     &kp SPACE     &kp EQUAL   &lt 3 SPACE  &kp PRINTSCREEN     &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;

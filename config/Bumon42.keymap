@@ -88,10 +88,10 @@
 
         fn_layer {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4        &kp F6        &kp F7  &kp F8        &kp F9      &kp F10  &bootloader
-&bt BT_CLR    &bt BT_CLR    &bt BT_CLR    &bt BT_CLR     &bt BT_CLR    &bt BT_CLR         &none         &none   &none         &none   &sys_reset
-     &none      &kp HOME       &kp END   &kp PAGE_UP  &kp PAGE_DOWN         &none         &none         &none   &none  &out OUT_TOG  &bootloader
-     &to 0  &out OUT_USB         &none         &none          &none  &out OUT_BLE  &out OUT_USB  &out OUT_USB
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4  &kp F6     &kp F7  &kp F8        &kp F9      &kp F10  &bootloader
+&bt BT_CLR    &bt BT_CLR    &bt BT_CLR    &bt BT_CLR     &bt BT_CLR    &bt BT_CLR   &none      &none   &none         &none   &sys_reset
+     &none      &kp HOME       &kp END   &kp PAGE_UP  &kp PAGE_DOWN         &none   &none      &none   &none  &out OUT_TOG  &bootloader
+     &to 0  &out OUT_USB         &none         &none          &none      &kp RALT   &none  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;

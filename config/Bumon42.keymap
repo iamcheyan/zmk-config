@@ -57,10 +57,10 @@
 
         lower_layer {
             bindings = <
-    &none  &kp EXCLAMATION   &kp AT_SIGN              &kp HASH             &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_MENU
-    &none       &kp DOLLAR   &kp PERCENT             &kp CARET                  &none         &none      &kp MINUS      &kp EQUAL      &kp SEMI               &kp SQT               &kp PIPE
-&kp LSHFT    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &none          &none  &kp LESS_THAN      &kp HOME           &kp PAGE_UP                &kp END
-    &none            &none         &none        &kp UNDERSCORE              &kp MINUS  &kp C_VOL_DN  &kp PAGE_DOWN   &kp C_VOL_UP
+    &none  &kp EXCLAMATION   &kp AT_SIGN              &kp HASH             &kp DOLLAR  &kp PERCENT      &kp CARET      &kp AMPERSAND     &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_MENU
+    &none       &kp DOLLAR   &kp PERCENT             &kp CARET                  &none        &none      &kp MINUS          &kp EQUAL         &kp SEMI               &kp SQT               &kp PIPE
+&kp LSHFT    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &none          &none  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP           &kp PAGE_UP                &kp END
+    &none            &none         &none        &kp UNDERSCORE              &kp MINUS     &kp HOME  &kp PAGE_DOWN            &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;

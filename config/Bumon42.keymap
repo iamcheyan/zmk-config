@@ -46,9 +46,9 @@
 
         raise_layer {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4       &kp F5            &kp F6             &kp EQUAL  &kp MINUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL
-&kp CAPS   &kp F4  &kp F5  &kp F6  &kp F        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp J      &kp SQT     &kp SEMICOLON     &kp ENTER
-&kp LSHFT  &kp F7  &kp F8  &kp F9  &kp F10      &kp F11           &kp F12            &kp COMMA  &kp PERIOD  &kp SLASH         &kp RSHFT
+&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4       &kp F5            &kp F6             &kp EQUAL  &kp MINUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL
+&kp CAPS   &kp F4  &kp F5  &kp F6  &kp F        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp J      &kp SEMICOLON  &kp SQT           &kp ENTER
+&kp LSHFT  &kp F7  &kp F8  &kp F9  &kp F10      &kp F11           &kp F12            &kp COMMA  &kp PERIOD     &kp SLASH         &kp RSHFT
 &none      &none   &none   &to 5   &lt 4 EQUAL  &kp RIGHT_ALT     &kp PRINTSCREEN    &kp RCTRL
             >;
 

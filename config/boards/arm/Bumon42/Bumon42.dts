@@ -48,7 +48,9 @@
 
 };
 
-
+zephyr_udc0: &usbd {
+    status = "okay";
+};
 
 &gpio0 {
 	status = "okay";
@@ -64,7 +66,7 @@
 	status = "okay";
 };
 
-zephyr_udc0: &usbd {
+&usbd {
 	status = "okay";
 };
 

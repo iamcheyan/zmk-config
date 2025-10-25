@@ -15,3 +15,9 @@
 include:
   - board: Bumon42
     shield: Bumon42
+    snippet: studio-rpc-usb-uart
+#on: [push, pull_request, workflow_dispatch]
+
+#jobs:
+#  build:
+#    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main

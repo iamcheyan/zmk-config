@@ -1,30 +1,28 @@
-# Keymap Editor - Bumon42
+# 键位编辑器 - Bumon42
 
-This is a customization of the ZMK config for the Bumon42 keyboard with machine
-readable layout and keymap definitions for use with @nickcoutsos' [keymap-editor](https://github.com/nickcoutsos/keymap-editor) tool.
+这是为Bumon42键盘定制的ZMK配置，包含机器可读的布局和键位定义，用于配合@nickcoutsos的[keymap-editor](https://github.com/nickcoutsos/keymap-editor)工具使用。
 
-![Screenshot](./Bumon42_keymap.png)
+![截图](./Bumon42_keymap.png)
 
-# Usage
+# 使用方法
 
-* Navigate to the [keymap-editor](https://nickcoutsos.github.io/keymap-editor/) web app.
-* In the `Source` drop-down menu, select GitHub.
-* For the repository, input this repository's location: `DAydDaY/zmk-config-Bumon42`
-* For the branch, select `main`.
-* Modify the keymap as desired.
-  * Refer to the [zmk documentation](https://zmk.dev/docs) for a description of the various [behaviours](https://zmk.dev/docs/behaviors/key-press) and [codes](https://zmk.dev/docs/codes).
-* Once you're happy with the changes, click "Commit Changes" at the bottom right of the page.
-* Give it a few minutes (should be less than 10 minutes) to build the new firmware. There will be a button at the bottom right of the page that you can use to downlad the firmware.
-* Download the firmware and extract it somewhere.
-* Plug your Bumon42 to your computer and quickly double tap the reset button.
-  * The left LED should be flashing blue, indicating the keyboard is in bootloader mode.
-  * The keyboard should appear as a new drive on your system, with name: `U disk`
-* As superuser, copy the `Bumon42-Bumon42-zmk.uf2` file that you extracted from the downloaded zip file to the root of the `U disk` drive.
-* Type a few letters with the Bumon42. It should now be using the updated keymap.
+* 访问[keymap-editor](https://nickcoutsos.github.io/keymap-editor/)网页应用。
+* 在`Source`下拉菜单中选择GitHub。
+* 在仓库输入框中输入：`bumony/zmk-config`
+* 在分支选择框中选择`main`。
+* 根据需要修改键位映射。
+  * 参考[zmk文档](https://zmk.dev/docs)了解各种[行为](https://zmk.dev/docs/behaviors/key-press)和[代码](https://zmk.dev/docs/codes)的描述。
+* 对修改满意后，点击页面右下角的"Commit Changes"按钮。
+* 等待几分钟（通常少于10分钟）来构建新的固件。页面右下角会有一个按钮供你下载固件。
+* 下载固件并解压到某个位置。
+* 将Bumon42连接到电脑，快速双击复位按钮。
+  * 左侧LED应该闪烁蓝色，表示键盘处于引导加载程序模式。
+  * 键盘应该作为新驱动器出现在你的系统中，名称为：`U disk`
+* 以超级用户身份，将你从下载的zip文件中提取的`Bumon42-Bumon42-zmk.uf2`文件复制到`U disk`驱动器的根目录。
+* 用Bumon42输入几个字母。现在应该使用更新后的键位映射了。
 
-# Usage for other users than yours truly
+# 其他用户的使用方法
 
-For the keymap-editor to do its job, it will need write access to the github repo it's pointing at.
+为了让keymap-editor正常工作，它需要对指向的github仓库具有写入权限。
 
-If you want to use the keymap-editor for your Bumon42 keyboard and you are not this repository's author, please fork this repo first and substitute any reference to `DAydDaY` in the README with you own username.
-.
+如果你想为你的Bumon42键盘使用keymap-editor，但你不是此仓库的作者，请先fork此仓库，并将README中任何对`bumony`的引用替换为你自己的用户名。

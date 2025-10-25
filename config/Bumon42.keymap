@@ -29,8 +29,6 @@
 &kp LSHFT  &kp Z         &kp X         &kp C        &kp V        &kp B             &kp N             &kp M                  &kp DOT  &kp UP_ARROW  &lt 4 RSHIFT
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &lt 2 SPACE  &lt 1 LEFT_ARROW  &lt 6 DOWN_ARROW  &mt RCTRL RIGHT_ARROW
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         number {

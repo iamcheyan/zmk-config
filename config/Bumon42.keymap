@@ -38,7 +38,7 @@
 &kp GRAVE  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp N6           &kp N7        &kp N8          &kp N9           &kp N0            &kp DEL
 &kp CAPS   &kp NUMBER_4    &kp NUMBER_5  &kp NUMBER_6  &kp F         &kp EQUAL     &kp LEFT_ARROW   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER
 &mo 5      &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp B         &kp N            &kp COMMA     &kp PERIOD      &kp SLASH        &mt RSHIFT SLASH
-&kp LCTRL  &lt 0 NUMBER_0  &kp DOT       &kp SPACE     &kp EQUAL     &lt 3 SPACE   &kp PRINTSCREEN  &kp RCTRL
+&kp LCTRL  &lt 0 NUMBER_0  &kp DOT       &kp SPACE     &kp PERIOD    &lt 3 SPACE   &kp PRINTSCREEN  &kp RCTRL
             >;
         };
 
@@ -74,7 +74,7 @@
 &to 0   &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &trans           &trans       &trans    &trans      &trans       &trans     &trans         &trans        &trans                &trans
 &to 0   &trans           &trans       &trans    &trans      &trans       &trans     &trans         &trans        &kp NON_US_BACKSLASH  &trans
-&trans  &trans           &trans       &trans    &kp MINUS   &trans       &trans     &trans
+&trans  &trans           &trans       &trans    &kp COMMA   &trans       &trans     &trans
             >;
         };
 
